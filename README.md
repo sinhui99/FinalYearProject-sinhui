@@ -74,11 +74,12 @@ For those who intend to only test the model with testing set and saved model, ki
 		X_testing.pickle
 		y_testing.pickle
 		
-13. Download the saved model from GitHub.
+12. Download the saved model from GitHub. You need not to do this step if you are building from scartch.
 		
-14. Load and test the model by running:
+13. Load and test the model by running:
 
 		testing.ipynb or testing.py
+The default model to be loaded is model_1607, if you wish to test on different models, kindly change to the corresponding model name.
 
 Note 1: ax_client_snapshot contains details on the 250 trials using Ax experiment
 
