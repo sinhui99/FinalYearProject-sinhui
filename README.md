@@ -72,6 +72,6 @@ For those who intend to only test the model with testing set and saved model, ki
 
 		testing.ipynb or testing.py
 
-Note: ax_client.snapshot contains details on the 250 trials using Ax experiment
+Note: ax_client_snapshot contains details on the 250 trials using Ax experiment
 For any further inquiries or issue faced while executing the files, kindly contact the following email:
 sinhui1999@1utar.my
