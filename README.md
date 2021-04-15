@@ -50,7 +50,7 @@ For those who intend to only test the model with testing set and saved model, ki
 		X.pickle
 		y.pickle
 	
-	Note: for X.pickle, the file size has exceeded 25 MB, kindly go and get at Google Drive. (Drive link is included at the bottom)
+	Note: For X.pickle, the file size has exceeded 25 MB, kindly get at Drive. Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
 		
 8. Next, to transform feature into RNN shape, run
 	
@@ -74,7 +74,9 @@ For those who intend to only test the model with testing set and saved model, ki
 		X_testing.pickle
 		y_testing.pickle
 		
-12. Download the saved model from GitHub. You need not to do this step if you are building from scartch.
+12. Download the saved model from Drive because the saved model has exceeded 25 MB. You need not to do this step if you are building from scartch. Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
+	
+	You can choose to use the saved model in folder or the h5py file to predict the class on testing set. By default, it is choosing the h5py file, kindly change it if needed.
 		
 13. Load and test the model by running:
 
