@@ -1,5 +1,5 @@
 # FinalYearProject-sinhui
-This is a guide on how to build the system step by step
+This is a guide on how to build the system step by step. You can either use ipynb file or py file provided here.
 
 For those who intend to only test the model with testing set and saved model, kindly skip to instruction 11.
 
@@ -17,13 +17,39 @@ If you have downloaded any pickle from GitHub or Drive, kindly put them in a fol
 		chmod 777 download.sh
 
 4. Split the videos into training and testing set.
-
+	
+		Name training videos folder to videos				Name testing videos folder to testvideos 
+		videos/jdezKogGKW0.mp4						testvideos/Xhu5Bz1xDf0.mp4
+		videos/JjVO--nexcA.mkv						testvideos/XLWx0_I1qLQ.mp4
+		videos/LbO-qvy9JlY.mp4						testvideos/_y3rFsvz8qQ.mkv
+		videos/lpS9mYfvKIY.mp4						testvideos/3eDBuzDgLP0.mp4
+		videos/p8fqqMi26EI.mp4						testvideos/46xKDm6OFHw.mp4
+		videos/smBYcpMVeuo.mp4						testvideos/CFWSgo-ftrQ.mp4
+		videos/WbN8QWa8fWA.mp4						testvideos/HktqGcJQA4w.mp4
+		videos/weUenGaF8cs.mp4						testvideos/ms4hO0h1dOg.mp4
+		videos/YXUmL753tYo.mp4						testvideos/xBUu1q-1KSI.mkv
+		videos/Z5i6jdYkHcA.mp4
+		videos/3fYpcapas0k.mp4
+		videos/5dCpEzu1ka0.mkv
+		videos/5OJfbYQtKtk.mp4
+		videos/5V0LsqPzDTU.mp4
+		videos/7Fau-IwbuJc.mp4
+		videos/7jpruuvWK7E.mp4
+		videos/9ifbXe4TsSc.mp4
+		videos/eFDPJlvsrU8.mp4
+		videos/ep0FVRUzweg.mp4
+		videos/HfUwxxpzHrs.mp4
+		
+	Place the videos to their corresponding folder.
+		
 5. Download the following:
 
 		trainlist01.txt
 		testlist01.txt
 		items in textfiles folder
 		items in testfiles folder
+	
+	Note that if the videos extension have changed upon downloading, you have to modify the trainlist01.txt or testlist01.txt accordingly.
 
 6. Install the libraries required by executing the following commands:
 		
