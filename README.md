@@ -69,7 +69,7 @@ For those who intend to only test the model with testing set and saved model, ki
 
 		test_preprocessing.ipynb or test_preprocessing.py
 	
-	If you wish to skip processing the testing data, you can download the pickle files.
+	If you wish to skip processing the testing data, you can download the pickle files from drive. Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
 	
 		X_testing.pickle
 		y_testing.pickle
