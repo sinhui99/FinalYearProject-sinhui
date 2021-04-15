@@ -60,6 +60,10 @@ For those who intend to only test the model with testing set and saved model, ki
 
 		ax_experiment.ipynb or ax_experiment.py
 		
+	You can skip this step if you want to use the optimal hyperparameters available in the pickle folder to train the model. Go pickle folder to download the pickle file. 
+		
+		best_hyperparameters.pickle
+		
 10. Train the model by running:
 
 		training.ipynb or training.py
