@@ -63,6 +63,7 @@ For those who intend to only test the model with testing set and saved model, ki
 10. Train the model by running:
 
 		training.ipynb or training.py
+	Upon complete running the file, the trained model will be saved. You may need to modify the name of the model and the name of the h5py file if needed.
 	
 11. Run the following to preprocess the testing data:
 
