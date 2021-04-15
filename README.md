@@ -49,6 +49,8 @@ For those who intend to only test the model with testing set and saved model, ki
 		video_rnn.pickle
 		X.pickle
 		y.pickle
+	
+	Note: for X.pickle, the file size has exceeded 25 MB, kindly go and get at Google Drive. (Drive link is included at the bottom)
 		
 8. Next, to transform feature into RNN shape, run
 	
@@ -81,3 +83,5 @@ Note: ax_client_snapshot contains details on the 250 trials using Ax experiment
 
 For any further inquiries or issue faced while executing the files, kindly contact the following email:
 sinhui1999@1utar.my
+
+Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
