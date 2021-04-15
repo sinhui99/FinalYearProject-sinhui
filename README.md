@@ -81,7 +81,7 @@ If you have downloaded any pickle from GitHub or Drive, kindly put them in a fol
 		X_testing.pickle
 		y_testing.pickle
 		
-12. Download the saved model from Drive because the saved model has exceeded 25 MB. You need not to do this step if you are building from scartch. Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
+12. Download the saved model from Drive because the saved model has exceeded 25 MB. You need not to do this step if you are building from scratch. Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
 	
 	You can choose to use the saved model in folder or the h5py file to predict the class on testing set. By default, it is choosing the h5py file, kindly change it if needed.
 		
