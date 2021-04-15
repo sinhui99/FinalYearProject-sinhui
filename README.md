@@ -1,8 +1,7 @@
 # FinalYearProject-sinhui
 This is a guide on how to build the system step by step
 
-For those who not intend to rebuild the system from scratch, kindly skip to instruction 6.
-For those who intend to only test the model with testing set, kindly skip to instrcution .
+For those who intend to only test the model with testing set and saved model, kindly skip to instruction 11.
 1. Download the youtube-dl package. For Windows user, please go to folder ForWindowsUser. For Mac user, please go to folder ForMacUser.
 
 2. The package includes the videos download script, named download.bat (Windows) or download.sh (Mac).
@@ -30,12 +29,12 @@ For those who intend to only test the model with testing set, kindly skip to ins
 		conda install -c anaconda h5py
 		conda install pillow
 
-7. To rebuild the system, run the following files:
-	
-	data_preprocessing.ipynb or data_proprocessing.py
-	feature_extraction.ipynb or feature_extraction.py
+7. To rebuild the system, run the following files: (please get data_preprocessing file from the folder ForMacUser or ForWindowsUser)
 
-    This may take few hours to process, if you wish to save the time, then skip running the files and 	  do the following:
+		data_preprocessing.ipynb or data_proprocessing.py
+		feature_extraction.ipynb or feature_extraction.py
+
+    This may take few hours to process, if you wish to save the time, then skip running the files and do the following:
 
 	Download the pickle folder containing:
 
@@ -46,5 +45,32 @@ For those who intend to only test the model with testing set, kindly skip to ins
 		X.pickle
 		y.pickle
 		
-8. Next, run 
+8. Next, to transform feature into RNN shape, run
 	
+		transformation_to_rnn.ipynb or transformation_to_rnn.py
+		
+9. Run the Ax experiment.
+
+		ax_experiment.ipynb or ax_experiment.py
+		
+10. Train the model by running:
+
+		training.ipynb or traning.py
+	
+11. Run the following to preprocess the testing data:
+
+		test_preprocessing.ipynb or test_preprocessing.py
+	
+	If you wish to skip processing the testing data, you can download the pickle files.
+	
+		X_testing.pickle
+		y_testing.pickle
+		
+13. Download the saved model from GitHub.
+		
+14. Load and test the model by running:
+
+		testing.ipynb or testing.py
+		
+For any further inquiries or issue faced while executing the files, kindly contact the following email:
+sinhui1999@1utar.my
