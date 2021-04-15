@@ -55,7 +55,7 @@ For those who intend to only test the model with testing set and saved model, ki
 		
 10. Train the model by running:
 
-		training.ipynb or traning.py
+		training.ipynb or training.py
 	
 11. Run the following to preprocess the testing data:
 
