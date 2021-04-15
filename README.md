@@ -2,6 +2,9 @@
 This is a guide on how to build the system step by step
 
 For those who intend to only test the model with testing set and saved model, kindly skip to instruction 11.
+
+If you have downloaded any pickle from GitHub or Drive, kindly put them in a folder named 'pickle' before running the program.
+
 1. Download the youtube-dl package. For Windows user, please go to folder ForWindowsUser. For Mac user, please go to folder ForMacUser.
 
 2. The package includes the videos download script, named download.bat (Windows) or download.sh (Mac).
