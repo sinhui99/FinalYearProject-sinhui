@@ -5,11 +5,11 @@ For those who intend to only test the model with testing set and saved model, ki
 
 If you have downloaded any pickle from GitHub or Drive, kindly put them in a folder named 'pickle' before running the program.
 
-1. Download the youtube-dl package. For Windows user, please go to folder ForWindowsUser. For Mac user, please go to folder ForMacUser.
+1. Download the youtube-dl package. For Windows user, please go to folder ForWindowsUser. For Ubuntu user, please go to folder ForUbuntuUser.
 
-2. The package includes the videos download script, named download.bat (Windows) or download.sh (Mac).
+2. The package includes the videos download script, named download.bat (Windows) or download.sh (Ubuntu).
 
-3. For Windows user, kindly download the videos to local by clicking the download.bat. For Mac user, kindly open up a terminal and type the following:
+3. For Windows user, kindly download the videos to local by clicking the download.bat. For Ubuntu user, kindly open up a terminal and type the following:
 
 		bash download.sh
 	If the permission is denied, then do the following:
@@ -63,7 +63,7 @@ If you have downloaded any pickle from GitHub or Drive, kindly put them in a fol
 		conda install -c anaconda h5py
 		conda install pillow
 
-7. To rebuild the system, run the following files: (please get data_preprocessing file from the folder ForMacUser or ForWindowsUser)
+7. To rebuild the system, run the following files: (please get data_preprocessing file from the folder ForUbuntuUser or ForWindowsUser)
 
 		data_preprocessing.ipynb or data_proprocessing.py
 		feature_extraction.ipynb or feature_extraction.py
@@ -98,7 +98,7 @@ If you have downloaded any pickle from GitHub or Drive, kindly put them in a fol
 		training.ipynb or training.py
 	Upon complete running the file, the trained model will be saved. You may need to modify the name of the model and the name of the h5py file if needed.
 	
-11. Run the following to preprocess the testing data:
+11. Run the following to preprocess the testing data: (please get test_preprocessing file from the folder ForUbuntuUser or ForWindowsUser)
 
 		test_preprocessing.ipynb or test_preprocessing.py
 	
