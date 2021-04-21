@@ -5,6 +5,8 @@ For those who intend to only test the model with testing set and saved model, ki
 
 If you have downloaded any pickle from GitHub or Drive, kindly put them in a folder named 'pickle' before running the program.
 
+If you have downloaded any saved model, either hdf5 or the folder, kindly put them in the root you currently running your program.
+
 1. Download the youtube-dl package. For Windows user, please go to folder ForWindowsUser. For Ubuntu user, please go to folder ForUbuntuUser.
 
 2. The package includes the videos download script, named download.bat (Windows) or download.sh (Ubuntu).
@@ -96,7 +98,7 @@ If you have downloaded any pickle from GitHub or Drive, kindly put them in a fol
 10. Train the model by running:
 
 		training.ipynb or training.py
-	Upon complete running the file, the trained model will be saved. You may need to modify the name of the model and the name of the h5py file if needed.
+	Upon complete running the file, the trained model will be saved. You may need to modify the name of the model and the name of the hdf5 file if needed.
 	
 11. Run the following to preprocess the testing data: (please get test_preprocessing file from the folder ForUbuntuUser or ForWindowsUser)
 
@@ -109,7 +111,7 @@ If you have downloaded any pickle from GitHub or Drive, kindly put them in a fol
 		
 12. Download the saved model from Drive because the saved model has exceeded 25 MB. You need not to do this step if you are building from scratch. Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
 	
-	You can choose to use the saved model in folder or the h5py file to predict the class on testing set. By default, it is choosing the h5py file, kindly change it if needed.
+	You can choose to use the saved model in folder or the hdf5 file to predict the class on testing set. By default, it is choosing the hdf5 file, kindly change it if needed.
 		
 13. Load and test the model by running:
 
