@@ -65,7 +65,7 @@ If you have downloaded any saved model, either hdf5 or the folder, kindly put th
 		conda install -c anaconda h5py
 		conda install pillow
 
-7. To rebuild the system, run the following files: (please get data_preprocessing file from the folder ForUbuntuUser or ForWindowsUser)
+7. To rebuild the system, run the following files: (please get data_preprocessing file from the folder ForUbuntuUser or ForWindowsUser, move the file to root if you want to run it)
 
 		data_preprocessing.ipynb or data_proprocessing.py
 		feature_extraction.ipynb or feature_extraction.py
@@ -100,7 +100,7 @@ If you have downloaded any saved model, either hdf5 or the folder, kindly put th
 		training.ipynb or training.py
 	Upon complete running the file, the trained model will be saved. You may need to modify the name of the model and the name of the hdf5 file if needed.
 	
-11. Run the following to preprocess the testing data: (please get test_preprocessing file from the folder ForUbuntuUser or ForWindowsUser)
+11. Run the following to preprocess the testing data: (please get test_preprocessing file from the folder ForUbuntuUser or ForWindowsUser, move to file to root if you want to run it)
 
 		test_preprocessing.ipynb or test_preprocessing.py
 	
