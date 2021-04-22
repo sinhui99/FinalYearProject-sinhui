@@ -81,7 +81,7 @@ If you have downloaded any saved model, either hdf5 or the folder, kindly put th
 		X.pickle
 		y.pickle
 	
-	Note: For X.pickle, the file size has exceeded 25 MB, kindly get at Drive. Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
+	Note: For X.pickle, the file size has exceeded 25 MB, kindly get at Drive at models/pickle/ folder. Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
 		
 8. Next, to transform feature into RNN shape, run
 	
@@ -104,12 +104,12 @@ If you have downloaded any saved model, either hdf5 or the folder, kindly put th
 
 		test_preprocessing.ipynb or test_preprocessing.py
 	
-	If you wish to skip processing the testing data, you can download the pickle files from drive. Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
+	If you wish to skip processing the testing data, you can download the pickle files from drive at models/pickle/ folder. Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
 	
 		X_testing.pickle
 		y_testing.pickle
 		
-12. Download the saved model from Drive because the saved model has exceeded 25 MB. You need not to do this step if you are building from scratch. Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
+12. Download the saved model from Drive at models/ folder because the saved model has exceeded 25 MB. You need not to do this step if you are building from scratch. Drive link: https://drive.google.com/drive/folders/1LyCji2UXEcTU0RtSFMSlhBtlfIXtMnzJ?usp=sharing
 	
 	You can choose to use the saved model in folder or the hdf5 file to predict the class on testing set. By default, it is choosing the hdf5 file, kindly change it if needed.
 		
